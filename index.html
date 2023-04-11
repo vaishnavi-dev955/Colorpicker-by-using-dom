@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="colorPickerContainer" class="background-container d-flex flex-column justify-content-center text-center">
+        <h1 class="heading">Color Picker</h1>
+        <div class="buttons-container d-flex flex-row ml-5 text-center">
+            <button class="color-button1" id="button1" onclick="onButton1()">#e0e0e0</button>
+            <button class="color-button2" id="button2" onclick="onButton2()">#6fcf97</button>
+            <button class="color-button3" id="button3" onclick="onButton3()">#56ccf2</button>
+            <button class="color-button4" id="button4" onclick="onButton4()">#bb6bd9</button>
+        </div>
+        <div class="sub-container1 d-flex flex-row justify-content-center ml-5 mr-5">
+            <p class="paragraph pt-2">Background Color: <span id="selectedColorHexCode" class="span-style">#ffffff</span></p>
+        </div>
+        <p>Try clciking on one of the colors above to change the background color of this page!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
